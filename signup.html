@@ -55,7 +55,80 @@
     </header>
 
     <!--Main content-->
-    <main>Main Content</main>
+    <main>
+      <section id="signup">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>
+            <i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!
+          </h2>
+          <label for="first-name">First Name</label>
+          <input
+            id="first-name"
+            name="first_name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last-name">Last Name</label>
+          <input
+            id="last-name"
+            name="last_name"
+            type="text"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email-addresss">Email Address</label>
+          <input
+            id="email-address"
+            name="email_address"
+            type="email"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                id="road"
+                name="running_preference"
+                value="road"
+                type="radio"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Trail</label>
+              <input
+                id="trail"
+                name="running_preference"
+                value="trail"
+                type="radio"
+                required
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                id="both"
+                name="running_preference"
+                value="both"
+                type="radio"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Let's Run!</button>
+        </form>
+      </section>
+    </main>
 
     <!--Footer-->
     <footer>
@@ -66,41 +139,43 @@
             target="_blank"
             rel="noopener"
             aria-label="Visit our Facebook page (opens in a new tab)"
-            ><i class="fa-brands fa-facebook"></i></a
-          >
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </li>
         <li>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Twitter page (opens in a new tab)"
-              ><i class="fa-brands fa-twitter"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Youtube page (opens in a new tab)"
-              ><i class="fa-brands fa-youtube"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Instagram page (opens in a new tab)"
-              ><i class="fa-brands fa-instagram"></i></a
-            >
-          </li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
       </ul>
     </footer>
 
     <!-- Font Awesome kit -->
-    <script src="https://kit.fontawesome.com/d4e7d12788.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/d4e7d12788.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
